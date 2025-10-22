@@ -25,7 +25,11 @@ class _HomeScreenState extends State<HomeScreen> {
                   fontSize: 20,
                   fontWeight: FontWeight.bold,
                   color: Colors.white,
-                )),
+                )
+            ),
+            TextSpan(
+              text: "hello there "
+            ),
           ]),
         ),
         actions: [

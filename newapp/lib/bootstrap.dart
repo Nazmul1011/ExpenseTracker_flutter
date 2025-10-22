@@ -19,6 +19,7 @@ Future<void> bootstrap() async {
   // Initialize GetStorage
   await GetStorage.init();
 
+
   // Lock orientation to portrait
   await SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,
