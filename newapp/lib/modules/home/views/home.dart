@@ -41,6 +41,14 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       body: Stack(
         children: [
+          const Positioned(
+              top:500,
+              bottom: 0,
+              left: 0,
+              right: 0,
+              child: Center(child: Text("hello world",style:
+                TextStyle(fontSize: 40),))),
+
           Positioned.fill(
               top: 0,
               bottom: 638,
